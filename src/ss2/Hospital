@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Hospital Name="Brooklyn Hospital" xmlns:Data="http://wwww.aptechworldwide.com" xmlns:Admission="http://aptech.ac.in">
+    <Data:PatientDetails Data:PatientID="231333">
+        <Data:PatientData>
+            <Data:Name Data:Age="67" Data:Gender="Male">John Parker</Data:Name>
+            <Data:Address>
+                <Data:Street>#256, Brooklyn Park,Brooklyn-78945</Data:Street>
+                <Data:Phone>"874568394"</Data:Phone>
+            </Data:Address>
+        </Data:PatientData>
+        <Data:AilmentDetails>
+            <Data:Department Data:Floor="5">Neurology</Data:Department>
+            <Data:DoctorName>Mrs.Jane Hudson</Data:DoctorName>
+        </Data:AilmentDetails>
+        <Data:AdmissionDetails>
+            <Admission:AdmittedOn>13-03-07</Admission:AdmittedOn>
+            <Admission:RoomNo Admission:Type="AC Cabin">456</Admission:RoomNo>
+            <Admission:DischargedOn>14-04-07</Admission:DischargedOn>
+        </Data:AdmissionDetails>
+        <Data:PaymentDetails>
+            <Data:InvoiceNo>67588</Data:InvoiceNo>
+            <Data:Amount>"$299</Data:Amount>
+            <Data:ModeOfPayment>Debit Card</Data:ModeOfPayment>
+            <Data:CardType>Maestro</Data:CardType>
+        </Data:PaymentDetails>
+    </Data:PatientDetails>
+</Hospital>
