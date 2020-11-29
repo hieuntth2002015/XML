@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VoterDetails xmlns="http://www.electionsurvey.com">
+    <VoterName>Halle Brown</VoterName>
+    <Gender>Female</Gender>
+    <Age>24</Age>
+    <DateOfBirth>1982-05-13</DateOfBirth>
+    <Profession>Student</Profession>
+    <PhoneNumber>9780982343</PhoneNumber>
+    <Address>378-Park Street</Address>
+    <City>4000 Stavanger</City>
+    <State>Bergen</State>
+</VoterDetails>

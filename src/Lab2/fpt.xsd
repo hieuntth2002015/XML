@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace = "http://www.fptaptech.com.vn"
+            xmlns = "http://www.fptaptech.com.vn"
+            elementFormDefault="qualified">
+    <xsd:element name="FPTAptech" type = "FPT"/>
+    <xsd:complexType name = "FPT">
+        <xsd:sequence>
+            <xsd:element name="Student" type="student" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="student">
+        <xsd:sequence>
+            <xsd:element name="Name" type="name"/>
+            <xsd:element name="Age" type="age"/>
+        </xsd:sequence>
+        <xsd:attribute name="Sex" type="sex"/>
+    </xsd:complexType>
+    <xsd:complexType name="name">
+        <xsd:sequence>
+            <xsd:element name="FName" type="xsd:string"/>
+            <xsd:element name="LName" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="sex">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Male"/>
+            <xsd:enumeration value="Female"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="age">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minExclusive value="14"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

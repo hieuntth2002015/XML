@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<FPTAptech xmlns="http://www.fptaptech.com.vn">
+    <Student Sex="Female">
+        <Name>
+            <FName>Dinh</FName>
+            <LName>Anh</LName>
+        </Name>
+        <Age>18</Age>
+    </Student>
+    <Student>
+        <Name>
+            <FName>Phan</FName>
+            <LName>Tu</LName>
+        </Name>
+        <Age>22</Age>
+    </Student>
+    <Student>
+        <Name>
+            <FName>Kiet</FName>
+            <LName>Do</LName>
+        </Name>
+        <Age>15</Age>
+    </Student>
+</FPTAptech>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Mail>
+    <To>anne@xyz.com</To>
+    <From>bob@xyz.com</From>
+    <Data>27th February 2007</Data>
+    <Time>11:30 am</Time>
+    <Cc />
+    <Bcc />
+    <Subject>Meeting at Main Conference Room at 4:30pm</Subject>
+    <Message>Hi, Kindly request you to attend the cultural body
+    general meeting in the main conference room at 4:30 pm.
+    Please be present to learn about the new activities being
+    planned for the employees for this year. Yours sincerely,
+    Bob</Message>
+</Mail>
