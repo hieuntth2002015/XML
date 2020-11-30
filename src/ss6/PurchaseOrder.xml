@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="PurchaseOrder.xsl"?>
+<PurchaseOrder>
+    <PONumber>AP-34564</PONumber>
+    <PODate>18-Feb-2007</PODate>
+    <Seller>David Enterprises.</Seller>
+    <Buyer>Chelse Inc.</Buyer>
+    <DeliveryDate>20-Feb-2007</DeliveryDate>
+
+    <ShipTo>
+        <Name>Chelse Inc.</Name>
+        <Street>World HQ, Da vinci street</Street>
+        <CityZip>Laville, NC 4754</CityZip>
+        <Country>USA</Country>
+    </ShipTo>
+
+    <Products>
+        <Product>
+            <Name>13" Monitor</Name>
+            <Quantity>10</Quantity>
+            <Price>$150.00</Price>
+        </Product>
+
+        <Product>
+            <Name>15" Monitor</Name>
+            <Quantity>20</Quantity>
+            <Price>$200.00</Price>
+        </Product>
+
+        <Product>
+            <Name>21" Monitor</Name>
+            <Quantity>5</Quantity>
+            <Price>$1050.00</Price>
+        </Product>
+    </Products>
+
+    <Instructions>
+        <Instruction>The VAT number and the invoice should be split
+        between the net value of goods and servies.</Instruction>
+        <Instruction>Invoices submitted to Acoounts without a
+        Purchase Order number referenced will be returned</Instruction>
+    </Instructions>
+</PurchaseOrder>
